@@ -34,8 +34,8 @@ export type MyModel = {
 const Models: MyModel[] = [
     {
         provider: "lmstudio",
-        name: "qwen/qwen3.5-4b",
-        modelOriginalName: "qwen/qwen3.5-4b",
+        name: "openai/gpt-oss-20b",
+        modelOriginalName: "openai/gpt-oss-20b",
         context: 128000,
         evalSize: 8192,
     },
@@ -123,8 +123,8 @@ export const useAI = create<{
             {
                 name: "#01",
                 displayName: "AI Developer 01",
-                modelName: "qwen/qwen3.5-4b",
-                modelOriginalName: "qwen/qwen3.5-4b",
+                modelName: "openai/gpt-oss-20b",
+                modelOriginalName: "openai/gpt-oss-20b",
                 modelProvider: "lmstudio",
                 status: "empty",
                 enabled: true,
@@ -134,8 +134,8 @@ export const useAI = create<{
             {
                 name: "#02",
                 displayName: "AI Developer 02",
-                modelName: "qwen/qwen3.5-4b:2",
-                modelOriginalName: "qwen/qwen3.5-4b",
+                modelName: "openai/gpt-oss-20b:2",
+                modelOriginalName: "openai/gpt-oss-20b",
                 modelProvider: "lmstudio",
                 status: "empty",
                 enabled: false,
@@ -145,8 +145,8 @@ export const useAI = create<{
             {
                 name: "#03",
                 displayName: "AI Developer 03",
-                modelName: "qwen/qwen3.5-4b:3",
-                modelOriginalName: "qwen/qwen3.5-4b",
+                modelName: "openai/gpt-oss-20b:3",
+                modelOriginalName: "openai/gpt-oss-20b",
                 modelProvider: "lmstudio",
                 status: "empty",
                 enabled: false,
@@ -156,8 +156,8 @@ export const useAI = create<{
             {
                 name: "#04",
                 displayName: "AI Developer 04",
-                modelName: "qwen/qwen3.5-4b:4",
-                modelOriginalName: "qwen/qwen3.5-4b",
+                modelName: "openai/gpt-oss-20b:4",
+                modelOriginalName: "openai/gpt-oss-20b",
                 modelProvider: "lmstudio",
                 status: "empty",
                 enabled: false,
@@ -167,8 +167,8 @@ export const useAI = create<{
             {
                 name: "#05",
                 displayName: "AI Developer 05",
-                modelName: "qwen/qwen3.5-4b:5",
-                modelOriginalName: "qwen/qwen3.5-4b",
+                modelName: "openai/gpt-oss-20b:5",
+                modelOriginalName: "openai/gpt-oss-20b",
                 modelProvider: "lmstudio",
                 status: "empty",
                 enabled: false,
