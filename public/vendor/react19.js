@@ -6,6 +6,8 @@ const NPM_CACHE = window.NPM_CACHE;
 
 NPM_CACHE["npm-react"] = NPM_CACHE["npm-react"] || {}; 
 
+export const Activity = NPM_CACHE["npm-react"]['Activity'];
+
 export const Children = NPM_CACHE["npm-react"]['Children'];
 
 export const Component = NPM_CACHE["npm-react"]['Component'];
@@ -25,6 +27,8 @@ export const __COMPILER_RUNTIME = NPM_CACHE["npm-react"]['__COMPILER_RUNTIME'];
 export const act = NPM_CACHE["npm-react"]['act'];
 
 export const cache = NPM_CACHE["npm-react"]['cache'];
+
+export const cacheSignal = NPM_CACHE["npm-react"]['cacheSignal'];
 
 export const captureOwnerStack = NPM_CACHE["npm-react"]['captureOwnerStack'];
 
@@ -63,6 +67,8 @@ export const useDebugValue = NPM_CACHE["npm-react"]['useDebugValue'];
 export const useDeferredValue = NPM_CACHE["npm-react"]['useDeferredValue'];
 
 export const useEffect = NPM_CACHE["npm-react"]['useEffect'];
+
+export const useEffectEvent = NPM_CACHE["npm-react"]['useEffectEvent'];
 
 export const useId = NPM_CACHE["npm-react"]['useId'];
 

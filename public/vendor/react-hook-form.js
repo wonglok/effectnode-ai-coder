@@ -12,6 +12,10 @@ export const Form = NPM_CACHE["npm-react-hook-form"]['Form'];
 
 export const FormProvider = NPM_CACHE["npm-react-hook-form"]['FormProvider'];
 
+export const FormStateSubscribe = NPM_CACHE["npm-react-hook-form"]['FormStateSubscribe'];
+
+export const Watch = NPM_CACHE["npm-react-hook-form"]['Watch'];
+
 export const appendErrors = NPM_CACHE["npm-react-hook-form"]['appendErrors'];
 
 export const createFormControl = NPM_CACHE["npm-react-hook-form"]['createFormControl'];
