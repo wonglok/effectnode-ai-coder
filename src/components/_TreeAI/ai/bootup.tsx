@@ -98,31 +98,31 @@ export const SettingsBootUp = () => {
             localStorage.getItem("engine4") === "ok";
 
         useAI.getState().engines[0].modelName =
-            localStorage.getItem("engine0-modelName") || "openai/gpt-oss-20b";
+            localStorage.getItem("engine0-modelName") || "qwen/qwen3.5-4b";
         useAI.getState().engines[1].modelName =
-            localStorage.getItem("engine1-modelName") || "openai/gpt-oss-20b:2";
+            localStorage.getItem("engine1-modelName") || "qwen/qwen3.5-4b";
         useAI.getState().engines[2].modelName =
-            localStorage.getItem("engine2-modelName") || "openai/gpt-oss-20b:3";
+            localStorage.getItem("engine2-modelName") || "qwen/qwen3.5-4b";
         useAI.getState().engines[3].modelName =
-            localStorage.getItem("engine3-modelName") || "openai/gpt-oss-20b:4";
+            localStorage.getItem("engine3-modelName") || "qwen/qwen3.5-4b";
         useAI.getState().engines[4].modelName =
-            localStorage.getItem("engine4-modelName") || "openai/gpt-oss-20b:5";
+            localStorage.getItem("engine4-modelName") || "qwen/qwen3.5-4b";
 
         useAI.getState().engines[0].modelOriginalName =
             localStorage.getItem("engine0-modelOriginalName") ||
-            "openai/gpt-oss-20b";
+            "qwen/qwen3.5-4b";
         useAI.getState().engines[1].modelOriginalName =
             localStorage.getItem("engine1-modelOriginalName") ||
-            "openai/gpt-oss-20b";
+            "qwen/qwen3.5-4b";
         useAI.getState().engines[2].modelOriginalName =
             localStorage.getItem("engine2-modelOriginalName") ||
-            "openai/gpt-oss-20b";
+            "qwen/qwen3.5-4b";
         useAI.getState().engines[3].modelOriginalName =
             localStorage.getItem("engine3-modelOriginalName") ||
-            "openai/gpt-oss-20b";
+            "qwen/qwen3.5-4b";
         useAI.getState().engines[4].modelOriginalName =
             localStorage.getItem("engine4-modelOriginalName") ||
-            "openai/gpt-oss-20b";
+            "qwen/qwen3.5-4b";
 
         useAI.setState({
             engines: [...useAI.getState().engines],

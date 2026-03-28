@@ -4,16 +4,8 @@ import { useAI } from "../state/useAI";
 import { getEngineModel } from "./getEngineModel";
 import { LMStudioClient } from "@lmstudio/sdk";
 
-//  getLMStudioModel({ name: "openai/gpt-oss-20b" })
 import nprogress from "nprogress";
 export const bootEngines = async () => {
-    // //
-    // let currentAIProvider = useAI.getState().currentAIProvider;
-    // if (currentAIProvider === "lmstudio") {
-    //     getLMStudioModel({ name: "openai/gpt-oss-20b" });
-    // }
-    //
-
     const client = new LMStudioClient();
     let loadedEngines = [];
     try {
