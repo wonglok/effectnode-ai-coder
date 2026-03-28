@@ -1255,11 +1255,6 @@
   resolved "https://registry.npmmirror.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
-"@icons-pack/react-simple-icons@^13.7.0":
-  version "13.13.0"
-  resolved "https://registry.npmmirror.com/@icons-pack/react-simple-icons/-/react-simple-icons-13.13.0.tgz#71cf5f87809a2098506108960bdc746011c21bf5"
-  integrity sha512-B5HhQMIpcSH4z8IZ8HFhD59CboHceKYMpPC9kAwGyKntvPdyJJv26DLu4Z1wAjcCLyrJhf11tMhiQGom9Rxb9g==
-
 "@img/colour@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npmmirror.com/@img/colour/-/colour-1.1.0.tgz#b0c2c2fa661adf75effd6b4964497cd80010bb9d"
@@ -6879,7 +6874,7 @@ next-auth@5.0.0-beta.25:
   dependencies:
     "@auth/core" "0.37.2"
 
-next@^15.5.0:
+next@^15.5.7:
   version "15.5.14"
   resolved "https://registry.npmmirror.com/next/-/next-15.5.14.tgz#0b48f433e70195dcdec5c20bf0888e84d82c74d8"
   integrity sha512-M6S+4JyRjmKic2Ssm7jHUPkE6YUJ6lv4507jprsSZLulubz0ihO2E+S4zmQK3JZ2ov81JrugukKU4Tz0ivgqqQ==
